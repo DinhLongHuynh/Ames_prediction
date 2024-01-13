@@ -8,4 +8,5 @@ In the data, the 'ames' features equal to 0 mean non-toxic, while 1 mean toxic.
 From 4 datasets, there are initially 1558 features, including both fingerprint-based and descriptor-based features. Three models were investigated, including KNN, SVM, and RF Classification. The accuracy was the main evaluation score. Also, the PCA was introduced to reduce the multicollinearity in the raw dataset, which had more than 1000 features. 
 
 **Conclusion**:
+The random forest classification with 500 trees was determined as the optimal model, given 82.3% accuracy.
 
